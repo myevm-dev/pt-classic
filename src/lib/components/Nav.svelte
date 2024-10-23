@@ -51,60 +51,59 @@
 </nav>
 
 <style>
-  div.top-nav-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    background-color: var(--pt-bg-purple-darker);
-    box-shadow: 0 0 10px 2px hsl(263, 86%, 8%);
-    overflow-x: hidden;
-  }
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+  z-index: 1;
+}
 
-  div.top-nav-content {
-    width: 100%;
-    max-width: 80rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.top-nav-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  box-shadow: 0 0 10px 2px hsl(263, 86%, 8%);
+  background-image: url('/goldgradient.png'); 
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
 
-  div.top-nav-content > div {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
+.top-nav-content {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.top-nav-content > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+nav::after {
+  position: absolute;
+  right: 1rem;
+  top: -66px;
+}
+
+@media (min-width: 48rem) {
   nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem 0;
-    background-color: var(--pt-purple-600);
-    border-top: 2px solid var(--pt-purple-500);
-    z-index: 1;
-  }
-
-  nav::after {
-    content: url('/pooly.svg');
     position: absolute;
-    right: 1rem;
-    top: -66px;
+    inset: 0 auto auto 50%;
+    translate: -50%;
+    width: auto;
+    height: 3.25rem;
+    justify-content: center;
+    gap: 2.5rem;
+    background-color: transparent;
+    border: none;
   }
-
-  @media (min-width: 48rem) {
-    nav {
-      position: absolute;
-      inset: 0 auto auto 50%;
-      translate: -50%;
-      width: auto;
-      height: 3.25rem;
-      justify-content: center;
-      gap: 2.5rem;
-      background-color: transparent;
-      border: none;
-    }
-  }
+}
 </style>

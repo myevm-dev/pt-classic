@@ -129,7 +129,6 @@
     position: absolute;
     inset: 0;
     padding-top: 42vw;
-    background-image: url('/abstract-pooly.jpg');
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
@@ -140,7 +139,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(126, 70, 242, 0.6);
+    background-color: #000;
   }
 
   div.content-wrapper {

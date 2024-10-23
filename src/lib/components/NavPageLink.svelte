@@ -2,9 +2,9 @@
   import { page } from '$app/stores'
   import type { SVGAttributes } from 'svelte/elements'
 
-  export let href: string
-  export let name: string
-  export let viewBox: string
+  export let href: string;
+  export let name: string;
+  export let viewBox: string;
 
   $: currentPage = `/${$page.url.pathname.split('/')[1]}`
 

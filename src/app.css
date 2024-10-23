@@ -24,17 +24,17 @@
 
 :root {
   --pt-purple-50: #f5f0ff;
-  --pt-purple-100: #deceff;
-  --pt-purple-200: #c8adff;
-  --pt-purple-300: #b18cff;
-  --pt-purple-400: #9b6aff;
-  --pt-purple-500: #8050e3;
+  --pt-purple-100: #f0cb6c;
+  --pt-purple-200: #f0cb6c;
+  --pt-purple-300: #f0cb6c;
+  --pt-purple-400: #f0cb6c;
+  --pt-purple-500: #5f30bc;
   --pt-purple-600: #6538c1;
-  --pt-purple-700: #4c249f;
+  --pt-purple-700: #000;
   --pt-purple-800: #36147d;
   --pt-purple-900: #24095b;
-  --pt-teal-light: #35f0d0;
-  --pt-teal-dark: #0dc5a5;
+  --pt-teal-light: #f0cb6c;
+  --pt-teal-dark: #f0cb6c;
   --pt-pink-light: #fa48e8;
   --pt-pink-dark: #b623a7;
   --pt-bg-purple-light: #5d3a97;

@@ -32,11 +32,8 @@
   </span>
 </div>
 
-<span class="pt-info">Participate in daily PoolTogether prize draws</span>
-
 <DepositCard />
 
-<span class="join-us">Join the thousands of people saving to win</span>
 
 <style>
   div.banner {
@@ -58,14 +55,13 @@
   }
 
   div.banner > span.title strong {
-    color: var(--pt-pink-light);
+    color: #f0cb6c;
   }
 
   div.banner > span.img-wrapper {
     position: absolute;
     inset: 0;
     padding-top: 42vw;
-    background-image: url('/abstract-pooly.jpg');
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
@@ -76,24 +72,10 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(69, 35, 139, 0.8);
+    background-color: #010101;
   }
 
-  span.pt-info {
-    padding: 0 1rem;
-    text-align: center;
-    font-size: 0.875rem;
-    color: var(--pt-purple-200);
-  }
 
-  span.join-us {
-    width: min(calc(100% - 2rem), 32rem);
-    text-align: center;
-    margin-top: calc(1em - 1rem);
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: var(--pt-purple-200);
-  }
 
   @media (min-width: 48rem) {
     div.banner > span.title {

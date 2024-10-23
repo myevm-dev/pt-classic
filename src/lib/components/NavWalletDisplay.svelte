@@ -82,7 +82,7 @@
     font-size: 0.75rem;
     font-weight: 500;
     color: var(--pt-purple-100);
-    background-color: var(--pt-transparent);
+    background-color: black;
     border: 1px solid var(--pt-transparent);
     border-radius: 0.5rem;
     line-height: 150%;

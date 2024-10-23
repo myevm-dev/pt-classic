@@ -52,7 +52,7 @@ html {
   font-family: 'Inter';
   font-feature-settings: 'calt' off;
   color: var(--pt-purple-50);
-  background-color: var(--pt-bg-purple-darker);
+  background-color: #000;
   background-image: url('/background.svg');
   background-repeat: no-repeat;
 }
